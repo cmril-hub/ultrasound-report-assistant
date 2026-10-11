@@ -1,0 +1,17 @@
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.venv/
+# never commit patient data
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.docx
+*.pdf
+cases/
+
+# but DO keep the letterhead logos
+!letterhead/
+!letterhead/*.png
+!letterhead/*.jpg
